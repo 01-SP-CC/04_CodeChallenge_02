@@ -21,7 +21,7 @@ Alter 13-17 // Cola
 // var age = prompt("Bitte geben Sie ein Alter ein:"); // Eingabe des Alters.
 
 // if (!isNaN(age)) { // Ist die Einhabe überhaupt eine Zahl? 
-//     age = parseInt(age);
+//     age = parseInt(age); // Umwandeln von String -> Number
 // } else {
 //     console.error("Eingegebenes Alter ist keine Zahl.");
 //     exit();
@@ -38,7 +38,7 @@ Alter 13-17 // Cola
 // } else if (age >= 18) {
 //     drink = "Wein";
 // } else {
-//     console.error("Ungültiges Alter eingegeben.");
+//     console.error("Ungültiges Alter eingegeben.");    
 //     exit();
 // }
 
@@ -51,7 +51,7 @@ var gast  = prompt("Bitte geben Sie einen Namen ein:"); // Eingabe des Namens.
 var age = prompt("Bitte geben Sie ein Alter ein:"); // Eingabe des Alters.
 
 if (!isNaN(age)) { // Ist die Einhabe überhaupt eine Zahl? 
-    age = parseInt(age);
+    age = parseInt(age); // Umwandeln von String -> Number
 } else {
     console.error("Eingegebenes Alter ist keine Zahl.");
     exit();
@@ -73,4 +73,5 @@ if (age >= 0 && age <= 5) {
 }
 
 // Ausgabe
-console.log(gast + " trinkt " + drink + ".");  
+console.log(gast + " trinkt " + drink + "."); 
+
