@@ -73,4 +73,4 @@ if (age >= 0 && age <= 5) {
 }
 
 // Ausgabe
-console.log(gast + " trinkt " + drink + ".");   // name wird global verwendet. Brauche andere Deklaration.
+console.log(gast + " trinkt " + drink + ".");  
