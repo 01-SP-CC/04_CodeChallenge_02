@@ -16,4 +16,61 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+// var name  = prompt("Bitte geben Sie einen Namen ein:"); // Eingabe des Namens.
 
+// var age = prompt("Bitte geben Sie ein Alter ein:"); // Eingabe des Alters.
+
+// if (!isNaN(age)) { // Ist die Einhabe überhaupt eine Zahl? 
+//     age = parseInt(age);
+// } else {
+//     console.error("Eingegebenes Alter ist keine Zahl.");
+//     exit();
+// }
+
+// // Auswahl des Getränks nach Alter
+// var drink;
+// if (age >= 0 && age <= 5) {
+//     drink = "Milch";
+// } else if (age >= 6 && age <= 12) {
+//     drink = "Saft";
+// } else if (age >= 13 && age <= 17) {
+//     drink = "Cola";
+// } else if (age >= 18) {
+//     drink = "Wein";
+// } else {
+//     console.error("Ungültiges Alter eingegeben.");
+//     exit();
+// }
+
+// // Ausgabe
+// console.log(name + " trinkt " + drink + ".");   // !!! name wird global für etwas anderes verwendet. Brauche andere Deklaration!
+
+
+var gast  = prompt("Bitte geben Sie einen Namen ein:"); // Eingabe des Namens.
+
+var age = prompt("Bitte geben Sie ein Alter ein:"); // Eingabe des Alters.
+
+if (!isNaN(age)) { // Ist die Einhabe überhaupt eine Zahl? 
+    age = parseInt(age);
+} else {
+    console.error("Eingegebenes Alter ist keine Zahl.");
+    exit();
+}
+
+// Auswahl des Getränks nach Alter
+var drink;
+if (age >= 0 && age <= 5) {
+    drink = "Milch";
+} else if (age >= 6 && age <= 12) {
+    drink = "Saft";
+} else if (age >= 13 && age <= 17) {
+    drink = "Cola";
+} else if (age >= 18) {
+    drink = "Wein";
+} else {
+    console.error("Ungültiges Alter eingegeben.");
+    exit();
+}
+
+// Ausgabe
+console.log(gast + " trinkt " + drink + ".");   // name wird global verwendet. Brauche andere Deklaration.
